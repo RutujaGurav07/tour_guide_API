@@ -1,0 +1,75 @@
+# ----------------------------
+# Python Cache Files
+# ----------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ----------------------------
+# Virtual Environment
+# ----------------------------
+venv/
+env/
+ENV/
+.venv/
+
+# ----------------------------
+# Environment Variables
+# ----------------------------
+.env
+.env.*
+
+# ----------------------------
+# IDE / Editor Files
+# ----------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ----------------------------
+# Jupyter Notebook Checkpoints
+# ----------------------------
+.ipynb_checkpoints/
+
+# ----------------------------
+# Logs
+# ----------------------------
+*.log
+
+# ----------------------------
+# OS Files
+# ----------------------------
+.DS_Store
+Thumbs.db
+
+# ----------------------------
+# Build / Distribution
+# ----------------------------
+build/
+dist/
+*.egg-info/
+
+# ----------------------------
+# Dataset Files (Optional)
+# Uncomment if you don’t want to push large CSV files
+# ----------------------------
+# *.csv
+
+# ----------------------------
+# Ollama / Model Cache (Optional)
+# ----------------------------
+*.bin
+*.pt
+*.model
+
+# ----------------------------
+# Coverage Reports
+# ----------------------------
+.coverage
+htmlcov/
+
+# ----------------------------
+# SQLite Database (if added later)
+# ----------------------------
+*.db
